@@ -1,0 +1,421 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Aug  5 02:03:10 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = ELECTRON_RUN_AS_NODE/w:
+# default
+.SHELLFLAGS := -c
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/aetoneilya/school21/CPP3_SmartCalc_v2.0-0/src
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /mnt/c/Users/udalo/AppData/Local/Programs/Microsoft VS Code/bin/code
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 2)
+CXXFLAGS = -c -pedantic -Wall -Wextra -Wshadow -Wconversion -Wunreachable-code -std=c++17
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# makefile (from 'Makefile', line 7)
+MODELCPP = $(wildcard model/*.cpp)
+# makefile (from 'Makefile', line 15)
+BUILDDIR = SmartCalc
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /mnt/c/Users/udalo/AppData/Local/Programs/Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/aetoneilya/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/udalo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/udalo/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-d1df62ee-161a-4bfb-9312-fec451d60756.sock
+# makefile (from 'Makefile', line 3)
+LDFLAGS = -lm
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'Makefile', line 5)
+TMPEXECUTABLE = SmartCalc2.app/Contents/MacOS/SmartCalc2
+ 
+# environment
+PWD = /home/aetoneilya/school21/CPP3_SmartCalc_v2.0-0/src
+# default
+.LOADED := 
+# environment
+WSL_INTEROP = /run/WSL/5618_interop
+# environment
+PULSE_SERVER = /mnt/wslg/PulseServer
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/aetoneilya
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = aetoneilya
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = aetoneilya
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 14)
+INSTALLDIR = ../build
+# environment
+NAME = Code
+# environment
+QT_SELECT = Qt6.3.1
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/udalo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 8)
+MODELOBJ = $(MODELCPP:.cpp=.o)
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# makefile (from 'Makefile', line 12)
+EXECUTABLE_TEST = tests
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 11)
+EXECUTABLE = SmartCalc2
+# makefile (from 'Makefile', line 9)
+LCOVEXEC = $(EXECUTABLE).info
+# makefile (from 'Makefile', line 1)
+CXX = g++
+# environment
+LC_ALL = C
+# environment
+HOSTTYPE = x86_64
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 10)
+REPORTDIR = report
+# default
+SUFFIXES := 
+# environment
+WAYLAND_DISPLAY = wayland-0
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+WSL_DISTRO_NAME = Ubuntu
+# variable set hash-table stats:
+# Load=80/1024=8%, Rehash=0, Collisions=5/119=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2080, inode 47750): 16 files, no impossibilities.
+# model (device 2080, inode 47773): 8 files, no impossibilities.
+
+# 24 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 62):
+	$(CXX) $(CXXFLAGS) $^ -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# makefile (from 'Makefile', line 54)
+gcov_report: CXXFLAGS += --coverage
+# makefile (from 'Makefile', line 55)
+gcov_report: LDFLAGS += --coverage
+gcov_report: tests
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=2/32=6%, Rehash=0, Collisions=2/4=50%
+#  recipe to execute (from 'Makefile', line 57):
+	lcov -t $(EXECUTABLE) -o $(LCOVEXEC) -c -d .
+	lcov -r $(LCOVEXEC) "/usr*" -o $(LCOVEXEC)
+	genhtml -o $(REPORTDIR) $(LCOVEXEC)
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+.PHONY: all build test gcov_report style clean leaks rebuild
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tests: build_tests
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 52):
+	./$(EXECUTABLE_TEST)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+style:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 65):
+	cppcheck --std=c++17 --language=c++ --enable=all --suppressions-list=suppressions.txt ./
+	python3 ../materials/linters/cpplint.py --filter=-runtime/references --extensions=cpp,h --recursive --exclude=qcustomplot.cpp --exclude=qcustomplot.h . 
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 14:26:08.5458555
+#  File has been updated.
+#  Successfully updated.
+
+rebuild: clean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+test.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/17=6%
+#  recipe to execute (from 'Makefile', line 22):
+	mkdir $(BUILDDIR)
+	cp SmartCalc2.pro $(BUILDDIR)
+	cd $(BUILDDIR) && qmake SmartCalc2.pro && make
+	cp $(BUILDDIR)/$(TMPEXECUTABLE) $(EXECUTABLE)
+
+dvi: info.dvi
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+leaks: build_tests
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	CK_FORK=no valgrind -s --leak-check=full --show-leak-kinds=all ./$(EXECUTABLE_TEST)
+
+uninstall:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	rm -rf $(INSTALLDIR)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+model/calculator.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	rm -rf *.o *.out $(EXECUTABLE) $(EXECUTABLE_TEST) SmartCalc2 $(BUILDDIR)
+	rm -rf model/*.o smart_calc-1.00.tar.gz model/*.gcno model/*.gcda model/*.gcov
+	rm -rf *.gcno *.gcda *.gcov $(LCOVEXEC) $(REPORTDIR)
+
+dist: build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	mkdir smart_calc-1.00
+ 
+	cp $(EXECUTABLE) smart_calc-1.00/$(EXECUTABLE)
+	tar --totals -cvf smart_calc-1.00.tar smart_calc-1.00
+	gzip smart_calc-1.00.tar
+	rm -rf smart_calc-1.00
+
+# Not a target:
+model/model.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+info.dvi: info/d5e0e1e06faa4af1808a749c2cc755f6.texi
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 44):
+	texi2dvi info/d5e0e1e06faa4af1808a749c2cc755f6.texi
+
+# makefile (from 'Makefile', line 47)
+build_tests: LDFLAGS += -lgtest
+build_tests: test.o model/expression.o model/calculator.o model/model.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/2=0%
+#  recipe to execute (from 'Makefile', line 49):
+	$(CXX) $^ -o $(EXECUTABLE_TEST) $(LDFLAGS)
+
+# Not a target:
+info/d5e0e1e06faa4af1808a749c2cc755f6.texi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	mkdir $(INSTALLDIR)
+	cp $(EXECUTABLE) $(INSTALLDIR)/$(EXECUTABLE)
+
+# Not a target:
+model/expression.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=24/1024=2%, Rehash=0, Collisions=2/69=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 49 / storage = 502 B / avg = 10 B
+# current buf: size = 8162 B / used = 502 B / count = 49 / avg = 10 B
+
+# strcache performance: lookups = 93 / hit rate = 47%
+# hash-table stats:
+# Load=49/8192=1%, Rehash=0, Collisions=2/93=2%
+# Finished Make data base on Fri Aug  5 02:03:10 2022
+
+ 

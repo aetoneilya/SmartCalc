@@ -1,0 +1,6 @@
+missingInclude
+noCopyConstructor
+noOperatorEq
+unusedFunction
+toomanyconfigs
+unknownMacro

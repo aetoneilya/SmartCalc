@@ -1,0 +1,8 @@
+make build --dry-run --keep-going --print-directory
+make: Entering directory '/home/aetoneilya/school21/CPP3_SmartCalc_v2.0-0/src'
+mkdir SmartCalc
+cp SmartCalc2.pro SmartCalc
+cd SmartCalc && qmake SmartCalc2.pro && make
+cp SmartCalc/SmartCalc2.app/Contents/MacOS/SmartCalc2 SmartCalc2
+make: Leaving directory '/home/aetoneilya/school21/CPP3_SmartCalc_v2.0-0/src'
+ 

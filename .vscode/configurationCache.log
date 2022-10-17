@@ -1,0 +1,1 @@
+{"buildTargets":["all","build","build_tests","clean","dist","dvi","gcov_report","info.dvi","install","leaks","rebuild","style","test","tests","uninstall"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[]},"fileIndex":[]}}

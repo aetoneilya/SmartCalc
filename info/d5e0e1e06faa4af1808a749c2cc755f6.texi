@@ -1,0 +1,42 @@
+\input texinfo
+@documentencoding UTF-8
+
+@ifnottex
+@paragraphindent 0
+@end ifnottex
+@node Top
+@top Top
+
+Smart Calculator v2.0
+
+@quotation
+Smart calculator is a software created to calculate mathematical
+expressions, build graphics and to calculate credits.
+@end quotation
+Smart calculator have a simple user interface.
+
+@image{vertopal_d5e0e1e06faa4af1808a749c2cc755f6/media/image1,5.41667in,4.55139in,,png}
+
+You can enter your expression using buttons or simply enter it in the
+text ﬁeld.
+
+@image{vertopal_d5e0e1e06faa4af1808a749c2cc755f6/media/image2,6.22639in,5.3in,,png}
+
+@image{vertopal_d5e0e1e06faa4af1808a749c2cc755f6/media/image3,6.22639in,5.30694in,,png}
+
+@strong{GRAPH}
+
+To see graphic of the expression you enter switch to the “Graph” tab
+
+@image{vertopal_d5e0e1e06faa4af1808a749c2cc755f6/media/image4,6.22639in,5.47361in,,png}
+
+@strong{Credit}
+
+@quotation
+You also can calculate any credit using a credit calculator. To enter a
+credit calculator you should open the “Credit” tab. To calculate your
+credit just enter your data and press calculate.
+@end quotation
+@image{vertopal_d5e0e1e06faa4af1808a749c2cc755f6/media/image5,6.22639in,5.27361in,,png}
+
+@bye
